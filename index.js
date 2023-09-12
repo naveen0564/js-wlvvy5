@@ -296,31 +296,33 @@ for (let i = 0; i < val.length; i++) {
 }
 console.log(eqIndex);
 
-// Subarray with 0 sum
+// // Subarray with 0 sum
 
-let subArraySum = [4, 2, -3, 1, 6];
+// let subArraySum = [4, 2, -3, 1, 6];
 
-for (let i = 0; i < subArraySum.length; i++) {
-  sum = 0;
-  console.log("i am here");
-  if (subArraySum[i] === 0) {
-    console.log('subarray');
-  }
-  for (let j = 1; j < subArraySum.length; j++) {
-    sum = sum + subArraySum[j];
+// for (let i = 0; i < subArraySum.length; i++) {
+//   sum = 0;
+//   console.log("i am here");
+//   if (subArraySum[i] === 0) {
+//     console.log('subarray');
+//   }
+//   for (let j = 1; j < subArraySum.length; j++) {
+//     sum = sum + subArraySum[j];
 
-    if (sum === 0) {
-      console.log('subarray');
-    }
-  }
-}
-
+//     if (sum === 0) {
+//       console.log('subarray');
+//     }
+//   }
+// }
 
 // subarray sum using prefix method.
 
-let sumS =0;
+let sumS = 0;
+let subArraySum = [4, 2, -3, 1, 6];
 
-for(let i=0;i< subArraySum.length;i++){
-sumS = sumS + subArraySum[i];
-console.log(sumS)
+for (let i = 0; i < subArraySum.length; i++) {
+  sumS = sumS + subArraySum[i];
+  console.log(sumS);
 }
+
+// find prim
